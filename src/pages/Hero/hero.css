@@ -1,0 +1,23 @@
+.item-list {
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+.item-list:hover {
+    background: grey;
+}
+.character-wrap{
+    display: flex;
+    height: 100vh;
+}
+.character-loist {
+    width: 50%;
+    border-right: 1px solid black;
+    overflow-y: auto;
+}
+.detailed-info {
+    width: 50%;
+    overflow-y: auto;
+}
